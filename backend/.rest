@@ -1,0 +1,24 @@
+GET http://localhost:8000/api/workouts/
+###
+GET http://localhost:8000/api/workouts/62c0ef2ac5cb51f7b51313fe
+
+
+###
+patch http://localhost:8000/api/workouts/62c0ef2ac5cb51f7b51313fe
+Content-Type: application/json
+
+# matensach vergule lazem tnahiha
+{"title":"hello world"
+ }
+###
+DELETE  http://localhost:8000/api/workouts/12
+###
+POST  http://localhost:8000/api/workouts/
+Content-Type: application/json
+
+{
+"load":3,
+"title":"hello"
+,"resp":21
+
+}
